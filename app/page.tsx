@@ -31,6 +31,21 @@ export default async function Home() {
           </Button>
         </div>
 
+        <div className="mt-6 flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+          <Button className="gap-2 border border-border" variant="secondary">
+            <Image src="/scissors.svg" width={16} height={16} alt="Cabelo" />
+            Cabelo
+          </Button>
+          <Button className="gap-2 border border-border" variant="secondary">
+            <Image src="/mustage.svg" width={16} height={16} alt="Barba" />
+            Barba
+          </Button>
+          <Button className="gap-2 border border-border" variant="secondary">
+            <Image src="/razor.svg" width={16} height={16} alt="Acabamento" />
+            Acabamento
+          </Button>
+        </div>
+
         <div className="relative mt-6 h-[150px] w-full">
           <Image
             src="/banner-1.svg"
