@@ -1,11 +1,18 @@
-import { Barbershop } from "@prisma/client"
+import { Barbershop, BarbershopService } from "@prisma/client"
 
-export declare interface BarbershopItemProps {
-  barbershop: Barbershop
-}
+declare global {
+  export interface BarbershopItemProps {
+    barbershop: Barbershop
+  }
+  export interface BarbershopPageProps {
+    params: {
+      id: string
+    }
+  }
 
-export declare interface BarbershopPageProps {
-  params: {
-    id: string
+  export interface ServiceItemProps {
+    service: BarbershopService
   }
 }
+
+export {}
