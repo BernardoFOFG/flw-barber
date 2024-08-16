@@ -17,6 +17,10 @@ declare global {
   export interface PhoneItemProps {
     phone: string
   }
+  export interface QuickSearchOption {
+    imageUrl: string
+    title: string
+  }
 }
 
 export {}
