@@ -13,6 +13,10 @@ declare global {
   export interface ServiceItemProps {
     service: BarbershopService
   }
+
+  export interface PhoneItemProps {
+    phone: string
+  }
 }
 
 export {}
